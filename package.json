@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@types/node": "^20.8.7",
+    "discord.js": "^14.13.0",
+    "discordjs-allintents-v14": "^2.0.1",
+    "dotenv": "^16.3.1",
+    "lavalink-client": "^1.1.22"
+  },
+  "name": "lavalink-music",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "tsc && node ."
+  },
+  "keywords": ["lavalink", "discord.js", "discord", "music", "typescript"],
+  "author": "tonnato-rn",
+  "license": "ISC",
+  "devDependencies": {},
+  "description": "Music bot using lavalink"
+}
