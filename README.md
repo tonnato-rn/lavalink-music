@@ -35,7 +35,7 @@ cd lavalink-music
 
 3. 必要なパッケージをインストール
 
-```npm i ``` か ```yarn```
+```npm i``` か ```yarn```
 
 4. .envを設定
 
