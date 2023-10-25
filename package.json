@@ -1,9 +1,12 @@
 {
   "dependencies": {
+    "@keyv/sqlite": "^3.6.6",
     "@types/node": "^20.8.7",
+    "axios": "^1.5.1",
     "discord.js": "^14.13.0",
     "discordjs-allintents-v14": "^2.0.1",
     "dotenv": "^16.3.1",
+    "keyv": "^4.5.4",
     "lavalink-client": "^1.1.22"
   },
   "name": "lavalink-music",
@@ -12,9 +15,14 @@
   "scripts": {
     "start": "tsc && node ."
   },
-  "keywords": ["lavalink", "discord.js", "discord", "music", "typescript"],
+  "keywords": [
+    "lavalink",
+    "discord.js",
+    "discord",
+    "music",
+    "typescript"
+  ],
   "author": "tonnato-rn",
   "license": "ISC",
-  "devDependencies": {},
   "description": "Music bot using lavalink"
 }
