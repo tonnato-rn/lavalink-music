@@ -52,3 +52,5 @@ LAVALINK_PASSWORD: lavalinkに設定したパスワード
 5. 起動
 
 ```npm start``` か ```yarn start``` か ```tsc && node .```
+
+[Botの使い方](HOWTOUSE.md)
