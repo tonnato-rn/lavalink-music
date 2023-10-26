@@ -1,6 +1,5 @@
-import { CommandInteraction, CommandInteractionOptionResolver, Events, Interaction } from "discord.js";
+import { CommandInteractionOptionResolver, Events, Interaction } from "discord.js";
 import { command_type } from "../../utils/types";
-import { error } from "../../utils/log";
 
 export const type = Events.InteractionCreate;
 export default async function (interaction: Interaction) {
